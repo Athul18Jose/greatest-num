@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>GREATEST NUMBER</h1>
+        <div>
+            <div class="div">
+                <input class="c1" type="text" placeholder="Enter First Number" id="n1"><br><br><br>
+                <input class="c1" type="text" placeholder="Enter second Number" id="n2"><br><br><br>
+            </div>
+            <button type="button" onclick="greatest()">Submit</button>
+
+        </div>
+    </div>
+</body>
+<script>
+    function greatest(){
+    num1=parseInt(n1.value)
+    num2=parseInt(n2.value)
+    if(num1>num2)
+{
+    // console.log("The greatest number is",num1);
+    alert(`The greatest number is ${num1}`)
+}
+else if( num1==num2){
+    // console.log("The numbers are equal");
+    alert(" Both numbers are equal")
+
+
+}
+else{
+    // console.log("The greatest number is",num2);
+    alert(`The greatest number is ${num2}`)
+
+}
+
+    }
+</script>
+</html>
