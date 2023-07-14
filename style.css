@@ -41,8 +41,31 @@ button{
   margin-top: 20px;
 }
 @media screen and (max-width:600px){
+    h1{
+        font-size: 20px;
+    }
     .c1{
         width: 150px;
-        height: 15px;
+        height: 17px;
     }
+    .main{
+        height:330px ;
+        left: 200px;
+
+    }
+}
+@media screen and (max-width:400px){
+    h1{
+        font-size: 20px;
+    }
+    .c1{
+        width: 90px;
+        height: 20px;
+    }
+    .main{
+        height:330px ;
+        left: 90px;
+
+    }
+
 }
