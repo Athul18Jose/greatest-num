@@ -78,8 +78,10 @@ button{
         height: 20px;
     }
     .main{
+        width: 60%;
         height:330px ;
         left: 20px;
+        padding: 20px;
 
     }
 
