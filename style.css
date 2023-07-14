@@ -90,5 +90,9 @@ button{
         right: 150px;
 
     }
+    body{
+        align-items: center;
+        justify-content: center;
+    }
 
 }
